@@ -1,1 +1,1 @@
-{"iface": "tun0", "dbpath": "/opt/one-z/db.sqlite3"}
+{"iface": "tun0", "dbpath": "db.sqlite3"}

@@ -491,7 +491,7 @@ class ConfigWin:
 			DB_PATH = CONFIG_DATA['dbpath']
 
 			if DB_PATH == 'db.sqlite3': #default (fixes path at first run)
-				DB_PATH ='%s/DB/db.sqlite3' %PROGRAM_DIR
+				DB_PATH ='%s/db.sqlite3' %PROGRAM_DIR
 				CONFIG_DATA['dbpath']= DB_PATH
 				with open('%s/config.json' %PROGRAM_DIR, 'w') as outfile:
 					json.dump(CONFIG_DATA, outfile)
